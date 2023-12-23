@@ -1,0 +1,20 @@
+i am working with areas in a region of greenland, as well as the 2017 karrat fjord greenland landslide 
+there are three shapefiles included in greenland.zip are "2017greenlandslide", "change2polyg_03_vl", and "change2polyg_03_landslide". projection epsg:4326
+i've loaded the shapefiles into arcgis pro
+"2017greenlandslide" contains a single point
+"change2polyg_03" shapefiles contain polygons
+"change2polyg_03_vl" has fields for FID, shape, feature type, shape area, and zone. i'm generating summary statistics for "change2polyg_03_vl" to determine unique statistics for the zone field. there is one unique zone called "scar". the frequency for scar is 14991; the total number of entries in "change2polyg_03_vl" is 14991; all fields share the same zone.
+i'm now inspecting "change2polyg_03_landslide". there are 6840 entries. i'm performing the same operation to determine unique zones. all entries have the same zone: "scar".
+the "2017greenlandslide" point is correctly projected with coordinates: 52.33 degrees west 71.64 degrees north, greenland.
+the two polygon shapefiles are projected near null island and will need to be rejected
+i'm using the "project" data management tool. the "project" data management tool projects spatial data from one coordinate system to another. I am selecting one of the polygon shapefiles as the input data set. the tool has returned error 000517: the coordinate system is not defined for the input data set the feature class feature layer feature data set scene layer or scene layer package to be projected.
+Instead of "project", i will try using "define projection" data management tool. "define projection" overrides the coordinate system information stored with the data set. the tool is intended for data sets that have an unknown or incorrect coordinate system defined. i'm setting the coordinate system as epsg:4326 (world geodetic system, WGS1984). the shape file has been correctly projected. i'm repeating the projection for the other shape file
+
+the 2017greenlandslide point intersects a single polygon in "change2polyg_03_landslide"
+the two polygon shapefiles share some small intersections
+
+The polygons in "change2polyg_03_landslide" are landslides 
+The game here is going to be taking stuff from the one area corresponding to the 2017 landslide and then looking at all of the other areas to find similarities
+i'm going to have another data set of elevations from different years and i'm going to have to come up with some kind of some kind of analysis that
+look at the slope of the area, for example, or that looks at the slope at single points, or the distribution of slopes. like on average it's going this way and here's the variation of how they of how the slopes are in the whole area and then based on that i can come up with a confidence interval so the slopes in this one are distributed this way and 95% of them fall within these bounds. so i could run some kind of statistical tests to look at the distributions then run them against eachother and if they fall within the same confidence interval or follow the same distribution then i'm going to say that they are in the same classes. 
+The analysis would check for areas that test positive for landslides or do not test positive. What would the null hypothesis be, then? Are we assuming that something is not a landslide then the alternative is that it is? so i'm not classifying them as landslides and not landslide, necessarily, but i'm running the test to say that they basically have the same features so it passes the test of being like this landslide and if it fails that test i'm not saying that it's not a landslide it just does not have that same feature set

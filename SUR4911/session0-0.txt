@@ -1,0 +1,34 @@
+check
+i am working with the polygons in a region in greenland as well as the 2017 carat fjord greenland landslide included in greenland zip
+projection epsg colon 4326
+i've loaded the shape files into arcgis pro
+there are three shape files
+the shape files are 2017 green landslide change to holly g03 vl and change to polly g 03 landslide
+2017 greenland slide contains a single point
+change to poly g shape files contain polygons
+change to pauly g03 vls for fid shape feature type shape area and zone
+i'm generating summary statistics for change to poly g03 vl to determine unique statistics for the zone field
+there is one unique zone called scar s c a r
+the frequency for scar s c a r is 14991
+the total number of entries in change to poly g03 vl is 14991
+show all fields share the same zone
+i'm now inspecting change to poly g03 landslide
+there are 6840 entries
+i'm performing the same operation to determine unique zones
+all entries have the same zone scar s c a r entries have the same zone star sc a r
+the 2017 greenland slide point is projected onto greenland 52.33 degrees west 71.64 degrees north
+the two polygons shapes files are projected near null island will need to be rejected
+i am duplicating one of the polygon shape files
+i'm using the project data management tool
+the project data management tool projects spatial data from one coordinate system to another
+as the input data set
+7 the coordinate system is not defined for the input data set the feature class feature layer feature data set scene layer or scene layer package to be projected
+i'm selecting the copied change to paulie gee 03 vl data set as the input data set
+the tool has returned error 0 0 0 0 0 5 1 7
+well instead of project i am using define projection data management tool
+define projection overrides the coordinate system information stored with the data set the tool is intended for data sets that have an unknown or incorrect coordinate system defined
+i'm setting the coordinate system as epsg colon 4326
+84 world geodetic system 1984
+the shape file has been correctly projected
+i'm repeating the projection for the other shape file
+i am removing the copied shape file

@@ -1,0 +1,12 @@
+testing check
+check to
+testing check 21
+testing check to two
+single polygon in change to polly g 03 landslide
+the single point in 2017 greenland slide intersects a single point
+intersects a single polygon in
+the two polygons shaped files do not appear to intersect
+the two polygons do intersect
+is a landslide and the game here is going to be taking stuff from this one area and then looking at all of these other
+and then i'm going to have another data set of elevations right and i'm going to have a few elevations from different years to elevations from a few different years and i'm going to have to come up with some kind of some kind of
+and then look at the slope of that or i could look at the slope at single points and try to figure out like the distribution of slopes like on average it's going this way and here's the variation of how they of how the slopes are in the whole area and then based on that i can come up with a confidence interval so the slopes in this one are distributed this way and 95% of them fall within these bounds so i have to go run some kind of statistical tests to look at the distribution run them against that one and if they fall within the same confidence interval within the same distribution then i'm going to say that they are in the same classes test positive for landslides and does not test positive right so i'm not classifying them as landslides and not landslide i'm running the test to say that they basically have the same features so it passes the test of being like this landslide and if it fails that test i'm not saying that it's not a landslide it just does not have that same feature set

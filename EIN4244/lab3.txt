@@ -1,0 +1,15 @@
+the current process consists of three inputs and two outputs
+inputs: liquid egg, oil (typically soybean), and powdered spices
+the egg and oil is received as liquid in a tank
+the liquid egg is taken out of the tank by attaching a hose opening a valve and pumping it into a receiving tank
+similarly, the oil is pumped to a holding tank
+the spices are received as a powder
+along with vinegar, salt, liquid natural flavors, and water, the powdered spices are added to a slurry tank
+the eggs, oil, and spice slurry are pumped to a mixing vessel in a computerized process
+the mixing vessel is agitated to mix
+periodic quality and consistency tests are taken from the mixing vessel
+the product is filled into a jar and a cap with a seal is placed on top
+heat is applied to the cap with seal to seal the jar
+the label is then glued to the jar
+some jars are randomly sampled for a final inspection and consistency test
+alternatively some of the product is added to a plastic pouch the pouches then sealed which is ready for packaging and shipping

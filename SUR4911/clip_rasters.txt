@@ -1,0 +1,7 @@
+import arcpy
+
+tileSet = arcpy.management.SelectLayerByAttribute('landslide_Buffer128_Mosaic_Index_Intersect', 'NEW_SELECTION', "tile = '21_38'", 'NON_INVERT')
+
+with arcpy.da.SearchCursor(tileSet, ["SHAPE@", "Origin_FID"]) as cursor:
+    for row in cursor:
+        print(row[1])

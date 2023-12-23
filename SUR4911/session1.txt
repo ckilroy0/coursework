@@ -1,0 +1,41 @@
+check one
+okay so today i want to get some imagery
+so i think i have to do is go to the arctic dem website
+and then on the web page there's a section called arctic dem strips
+are there a downloads for arctic dem strip d e m extent index cheap file
+and there's also a browser for arctic dm strip dms
+it's taking a while to load
+could also download geo databases or geo packages
+tulsa download from amazon web services
+why is he so big music and 17 kilometers
+elevation is in meters and they are reference to the wgs84 ellipsoid the website says that no ground control or altimetry registration has been applied to the strips
+strip dm dimensions vary but most strips are between 13 km and 17 km in width and 110 km and 120 km in length
+i'll be right back there are also arctic dem mosaics
+mosaic dem bowser compelled from the entire stack of strip dems the height value for each pixel is derived from the median value of all contributing strip dems
+mosaic dm files are distributed at 2 m spatial resolution as 50/50 km tiles in 32-bit geo tip formats
+kilometer tiles then there are 100 m 500 m and 1 km mosaics elevation units are meters and relative to wgs84 ellipsoid
+it looks like we're going to be using the mosaic so it looks like i've actually been provided with the mosaic index
+and then i've been given a filtered landslide shapefile data set so instead of these two that we were working with before we might be using a new one so let's go ahead and check that out too
+okay so now i have two sets of shape files for change to poly g i have greenland folder and 033 noise water
+which was using the define projection data management tool
+significantly reduced change to pauly 03 vl now has 1721 areas
+phone number radio south carolina lottery results period
+yeah 3306
+change to paulie g 0.3 landslide now has 306 areas
+i'm going to run an intersection to count the number of intersections i'm running the intersect analysis tool
+files output feature class is the intersection
+the input features are the two polygons feature classes the output feature classes the intersection i'm joining all attributes the appetite is the same as the input control phone number radio south carolina lottery results period i don't know where it got that
+there are 13 intersections
+shape lengths is 0.06 or lower
+shape area is 5006 or lower
+4 intersections have vl field id 168
+the intersection of ids
+13 intersections the resulting features do not appear to actually be intersections
+distance between the polygons to be close to 300 kilometers
+i identified two polygons that returned an intersection
+and then measure the distance between the polygons and then measure the distance between the polygons
+hello computer are you hearing me
+i identified two polygons that returned and intersection and measured the distance between the two polygons the distance was close to 300 km
+there appears to be a geometry error in landslide polygon 1068
+168 168
+correction vl polygon 168

@@ -1,0 +1,17 @@
+using DEM time series to map landslides in the Arctic. I have compiled some polygons of potential landslides. However, I need help to identify if the polygon is real or not based on local topography and slope information.
+thresholding
+elevation
+hillshade
+visual identification difficult because of large study area: whole arctic
+percent reduction in area
+classification, optimization
+input data: ArcticDEM elevation maps, polygons of potential landslides
+start with small area to figure out process then expand to larger area
+visual bands to differentiate from vegetation (maybe later)
+ArcticDEM mosaic
+Derive from elevations: slope, terrain, aspect, etc
+start with 32 meter to figure out process then increase resolution to 2 meter
+least squares
+temporal change in distributions to classify
+monte carlo experiments on parameters
+analyzing surface patches, reduce computation time and extraneous data processing
